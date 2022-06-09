@@ -1,0 +1,227 @@
+Classfile /home/student/workspace/j--/project5/SwitchStatement.class
+  Last modified Dec 4, 2021; size 1449 bytes
+  MD5 checksum 520c02fe3d0944660685db9155a7b02c
+  Compiled from "SwitchStatement.java"
+public class SwitchStatement
+  minor version: 0
+  major version: 55
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+  this_class: #18                         // SwitchStatement
+  super_class: #19                        // java/lang/Object
+  interfaces: 0, fields: 0, methods: 2, attributes: 3
+Constant pool:
+   #1 = Methodref          #19.#31        // java/lang/Object."<init>":()V
+   #2 = Class              #32            // java/util/Random
+   #3 = Methodref          #2.#31         // java/util/Random."<init>":()V
+   #4 = Methodref          #2.#33         // java/util/Random.nextInt:(I)I
+   #5 = String             #34            //
+   #6 = String             #35            // Ace
+   #7 = String             #36            // Jack
+   #8 = String             #37            // Queen
+   #9 = String             #38            // King
+  #10 = Methodref          #28.#39        // java/lang/String.valueOf:(I)Ljava/lang/String;
+  #11 = String             #40            // Spades
+  #12 = String             #41            // Hearts
+  #13 = String             #42            // Diamonds
+  #14 = String             #43            // Clubs
+  #15 = Fieldref           #44.#45        // java/lang/System.out:Ljava/io/PrintStream;
+  #16 = InvokeDynamic      #0:#49         // #0:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+  #17 = Methodref          #50.#51        // java/io/PrintStream.println:(Ljava/lang/String;)V
+  #18 = Class              #52            // SwitchStatement
+  #19 = Class              #53            // java/lang/Object
+  #20 = Utf8               <init>
+  #21 = Utf8               ()V
+  #22 = Utf8               Code
+  #23 = Utf8               LineNumberTable
+  #24 = Utf8               main
+  #25 = Utf8               ([Ljava/lang/String;)V
+  #26 = Utf8               StackMapTable
+  #27 = Class              #54            // "[Ljava/lang/String;"
+  #28 = Class              #55            // java/lang/String
+  #29 = Utf8               SourceFile
+  #30 = Utf8               SwitchStatement.java
+  #31 = NameAndType        #20:#21        // "<init>":()V
+  #32 = Utf8               java/util/Random
+  #33 = NameAndType        #56:#57        // nextInt:(I)I
+  #34 = Utf8
+  #35 = Utf8               Ace
+  #36 = Utf8               Jack
+  #37 = Utf8               Queen
+  #38 = Utf8               King
+  #39 = NameAndType        #58:#59        // valueOf:(I)Ljava/lang/String;
+  #40 = Utf8               Spades
+  #41 = Utf8               Hearts
+  #42 = Utf8               Diamonds
+  #43 = Utf8               Clubs
+  #44 = Class              #60            // java/lang/System
+  #45 = NameAndType        #61:#62        // out:Ljava/io/PrintStream;
+  #46 = Utf8               BootstrapMethods
+  #47 = MethodHandle       6:#63          // REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+  #48 = String             #64            // \u0001 of \u0001
+  #49 = NameAndType        #65:#66        // makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+  #50 = Class              #67            // java/io/PrintStream
+  #51 = NameAndType        #68:#69        // println:(Ljava/lang/String;)V
+  #52 = Utf8               SwitchStatement
+  #53 = Utf8               java/lang/Object
+  #54 = Utf8               [Ljava/lang/String;
+  #55 = Utf8               java/lang/String
+  #56 = Utf8               nextInt
+  #57 = Utf8               (I)I
+  #58 = Utf8               valueOf
+  #59 = Utf8               (I)Ljava/lang/String;
+  #60 = Utf8               java/lang/System
+  #61 = Utf8               out
+  #62 = Utf8               Ljava/io/PrintStream;
+  #63 = Methodref          #70.#71        // java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+  #64 = Utf8               \u0001 of \u0001
+  #65 = Utf8               makeConcatWithConstants
+  #66 = Utf8               (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+  #67 = Utf8               java/io/PrintStream
+  #68 = Utf8               println
+  #69 = Utf8               (Ljava/lang/String;)V
+  #70 = Class              #72            // java/lang/invoke/StringConcatFactory
+  #71 = NameAndType        #65:#76        // makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+  #72 = Utf8               java/lang/invoke/StringConcatFactory
+  #73 = Class              #78            // java/lang/invoke/MethodHandles$Lookup
+  #74 = Utf8               Lookup
+  #75 = Utf8               InnerClasses
+  #76 = Utf8               (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+  #77 = Class              #79            // java/lang/invoke/MethodHandles
+  #78 = Utf8               java/lang/invoke/MethodHandles$Lookup
+  #79 = Utf8               java/lang/invoke/MethodHandles
+{
+  public SwitchStatement();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 5: 0
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=6, args_size=1
+         0: new           #2                  // class java/util/Random
+         3: dup
+         4: invokespecial #3                  // Method java/util/Random."<init>":()V
+         7: astore_1
+         8: aload_1
+         9: bipush        13
+        11: invokevirtual #4                  // Method java/util/Random.nextInt:(I)I
+        14: iconst_1
+        15: iadd
+        16: istore_2
+        17: aload_1
+        18: iconst_3
+        19: invokevirtual #4                  // Method java/util/Random.nextInt:(I)I
+        22: iconst_1
+        23: iadd
+        24: istore_3
+        25: ldc           #5                  // String
+        27: astore        4
+        29: iload_2
+        30: lookupswitch  { // 4
+                       1: 72
+                      11: 79
+                      12: 86
+                      13: 93
+                 default: 100
+            }
+        72: ldc           #6                  // String Ace
+        74: astore        4
+        76: goto          106
+        79: ldc           #7                  // String Jack
+        81: astore        4
+        83: goto          106
+        86: ldc           #8                  // String Queen
+        88: astore        4
+        90: goto          106
+        93: ldc           #9                  // String King
+        95: astore        4
+        97: goto          106
+       100: iload_2
+       101: invokestatic  #10                 // Method java/lang/String.valueOf:(I)Ljava/lang/String;
+       104: astore        4
+       106: ldc           #5                  // String
+       108: astore        5
+       110: iload_3
+       111: tableswitch   { // 1 to 4
+                       1: 140
+                       2: 147
+                       3: 154
+                       4: 161
+                 default: 165
+            }
+       140: ldc           #11                 // String Spades
+       142: astore        5
+       144: goto          165
+       147: ldc           #12                 // String Hearts
+       149: astore        5
+       151: goto          165
+       154: ldc           #13                 // String Diamonds
+       156: astore        5
+       158: goto          165
+       161: ldc           #14                 // String Clubs
+       163: astore        5
+       165: getstatic     #15                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       168: aload         4
+       170: aload         5
+       172: invokedynamic #16,  0             // InvokeDynamic #0:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       177: invokevirtual #17                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       180: return
+      LineNumberTable:
+        line 7: 0
+        line 8: 8
+        line 9: 17
+        line 10: 25
+        line 11: 29
+        line 13: 72
+        line 14: 76
+        line 16: 79
+        line 17: 83
+        line 19: 86
+        line 20: 90
+        line 22: 93
+        line 23: 97
+        line 25: 100
+        line 27: 106
+        line 28: 110
+        line 30: 140
+        line 31: 144
+        line 33: 147
+        line 34: 151
+        line 36: 154
+        line 37: 158
+        line 39: 161
+        line 42: 165
+        line 43: 180
+      StackMapTable: number_of_entries = 11
+        frame_type = 255 /* full_frame */
+          offset_delta = 72
+          locals = [ class "[Ljava/lang/String;", class java/util/Random, int, int, class java/lang/String ]
+          stack = []
+        frame_type = 6 /* same */
+        frame_type = 6 /* same */
+        frame_type = 6 /* same */
+        frame_type = 6 /* same */
+        frame_type = 5 /* same */
+        frame_type = 252 /* append */
+          offset_delta = 33
+          locals = [ class java/lang/String ]
+        frame_type = 6 /* same */
+        frame_type = 6 /* same */
+        frame_type = 6 /* same */
+        frame_type = 3 /* same */
+}
+SourceFile: "SwitchStatement.java"
+InnerClasses:
+  public static final #74= #73 of #77;    // Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
+BootstrapMethods:
+  0: #47 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #48 \u0001 of \u0001

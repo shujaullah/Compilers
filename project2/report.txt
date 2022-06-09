@@ -1,0 +1,50 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<65>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<5 >>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Multiline Comment)
+      Approach: The approach to this problem is very simple. I just added the section of code where I was checking for the single line comments and Division. So basically I just put nested if else statements which checks for the one more '*' if its there it will read the file until it another '*'and '/' characters.  This approach is very good demonstartion of how effecintly use nested if else and using if else inside an if. 
+
+      Issues and resolution:  No issues have been encounterd while solving this problem. 
+
+   Problem 2 (Operators)
+      Approach: The approach to this problem is very similar to HW1 where we add operators for token file. and then modified the scanner file according these operators respectively. The problem 2 is very simple to solve because alot of code is there in scanner file just need to do some additional nested if else to make it work except ? and : opertaors(added separte case statement for those). 
+
+      Issues and resolution: No issues. 
+   
+   Problem 3 (Reserved Words)
+      Approach: The apprach to this problem is very similar to problem 2 where I add RESERVED words in Token file and then modifying scanner.java by adding new reserved words after String Hashtable. 
+
+      Issues and resolution:  No issues. 
+
+   Problem 4 (Literals)
+      Approach: The appraoch to this problem is started with the understandinhg the the DOUBLE and LOng Literals in J-- grammar file. This problem is tough for me to code. I added tokens for the DOUBLE and LONG. In the scanner file for the LONG literals anytime I see 'l' and 'L' at the end of the digit so I have to append these to become long literal. For the double literals according to the grammar file anytime I see '.'and exponential which repersent by 'e' and 'E' and isSuffix which are 'd' and 'D' I have to append these with digits as double. The expoinetial part was little tricky because in double exponential also contains sign + and - so i have to check for that as well. The grammer file is the real key here first check for '.' then for exponential and in the isSuffix and append the string buffer accodingly for double and return tokenINfo as double. 
+
+      Issues and resolution: The only issue which I encountered is failing the test for the MAlformed.java. I failed for the '#' character. I failed to resolved that issue. I will go to instructor and TA after the submission for this HW2 to figure it out how to resolve this issue. 
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS451/651 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   Swami Iyer         Instructor        Problem 4: understaing of the grammer file.
+                                        Also the piazza post where professor provided the 
+                                        state transition diagram for the DOUBLE LITERAL and 
+                                        LONG literal. 
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   To understand the grammer is very tricky. I hope professor will go over the grammar in detail in
+   class so it will be easy to understand it. 

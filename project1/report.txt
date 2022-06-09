@@ -1,0 +1,49 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<45>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<5>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Using CLEmitter)
+      Approach: The approach to the firts question is very simple I just use the code from teh lecture to get the input from the terminal. I basically used the same code for the main except for calling the print statments with lable because there is an if statement so I created a label for if return false run the brannched label for the "the numbe is not prime number" else just continue to the code which is the print statmnets code same as lecture with little change in string to print " the numbe is prime."
+      TO wirte the method pivate static boolean isPrime(int n){
+     I just basically copy the code from the lecture slides. The pseuod code provided in the project1 write up was very help ful to create the label for the method. I also refer to the apendix d for the best use of the condinal statements to see what IF_ command is best to use. I also learn the use of register and how thier scope working. I just basically follow the psedo code given to us create label accordinlgy and refer to apednix D. 
+      Issues and resolution: No issues.
+
+   Problem 2 (Arithmetic Operations)
+      Approach: The approcah to this problem is very simeple. The lecture code has been give for the divide operator. I modify that code for the remainder and use the JAVA bytecode instruction IREM in codegen to generate the remainder of two ints. The other code was same as divide. 
+      For unary plus I just see the code in the JUnary file for unaryMinus and try to use it for the unary plus. Unary plus is very siomplest and easy to do. 
+
+      Issues and resolution: No issues. 
+
+   Problem 3 (Bitwise Operations)
+      Approach: for the Bitwise operator the approcah I kept the same apporcah like I did for the problem 2. The inclusive or, exclusiveOr, bitwiseAnd are very similar to do divide and remaider oeperator. The only thing that took my time was the parser file because I didnt know what method I should use in parser file. I post the question about on piazza as well and the instructor told me to look at the grammer file. But couldnt figure it out. So I figured it out the other way I use the conditional expression ,method to parse my bitwise operators and it worked for me. After spending few more hours with that I also found another way the way which was creating method for inclusiveOR, exclusiveOr, andExpression. SO I did Bitwise operator in two ways. 
+      The complement was very easy the only tricky part was that is to generate the  -1  whichh i figured out by storing ICONST_1 first and call INEG on it will give -1. because ther is no java byteocde instruction for compelement as mentioned in hind by instrutor. 
+
+      Issues and resolution: Issue was didnt understand where to cal JBinary methods for respective operator in parser file Figured that out with grammer file and did it with 2 differnet ways. 
+
+   Problem 4 (Shift Operations)
+      Approach: I had the same approach for the shift operations as well. First I didnt get what method to use so I put the call of shift operations in parser to additive expresiion because I sae the grammer file having the shift oprations using additive expression. Later on I crreated a method shift operation that will do that. I also have two solution for that in my parser file. 
+
+      Issues and resolution: Issue was didnt understand where to cal JBinary methods for respective operator in parser file Figured that out with grammer file and did it with 2 differnet ways. 
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS451/651 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   Swami Iyer          Instructor      Piazza post.           
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I just want to mentioned that we should go over the grammer file more in the class to understand it better because I was so lost with use of some methods.
